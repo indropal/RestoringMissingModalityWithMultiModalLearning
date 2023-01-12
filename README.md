@@ -11,6 +11,11 @@ Recent progress in <b>Generative Deep Learning</b> has given rise to state-of-th
 The project takes inspiration from the following research article - <em><a href="https://arxiv.org/pdf/1802.05335.pdf">"Multimodal Generative Models for Scalable Weakly-Supervised Learning"</a></em>, building upon the concept of <b><em>weakly supervised learning</em></b> to support missing modal data and capture joint representations of modalities - as presented by the authors of this article.
 <br>
 
-The <em>Multimodal Variational Autoencoder</em> builds upon the <em>VAE</em> to train a generative model that learns representations bridging between <em>latent variables</em> & <em>observations</em> along with training an <em><b>inference</b></em> network from observations to latents (which is the converse association).
+<h4><em>NOTE: Extensions to this project is currently under development</em></h4>
 
-<b><em>Extensions to this project is currently being explore</em></b>
+<hr style="border: 4px double grey"></hr>
+<h3>Details & Objectivesabout the project</h3>
+
+The <em>Multimodal Variational Autoencoder</em> builds upon the <em>VAE</em> to train a generative model that learns representations bridging between <em>latent variables</em> & <em>observations</em> along with training an <em><b>inference</b></em> network from observations to latents (which is the converse association).
+<br>
+In order to scale & consider all possible combinations of modalities, the <b>inference network</b> is extended to a <b><a href="https://en.wikipedia.org/wiki/Product_of_experts">product-of-expert variation</a></b> by assuming conditional independence amongst modalities.
