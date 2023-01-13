@@ -13,7 +13,7 @@ The project takes inspiration from the following research article - <em><a href=
 
 <h4><em>NOTE: Extensions to this project is currently under development</em></h4>
 
-<img src="https://github.com/indropal/RestoringMissingModalityWithMultiModalLearning/tree/main/DocImages/MVAE_Reconstructed Digit 5.png"></img>
+<img src="https://github.com/indropal/RestoringMissingModalityWithMultiModalLearning/blob/main/DocImages/MVAE_Reconstructed%20Digit%205.png"></img>
 <p><em>Sample reconstruction of Bengali Digit 5 for multi-modal speech (English) & image (MNIST Arabic) inputs</em></p>
 
 
