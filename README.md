@@ -18,4 +18,4 @@ The project takes inspiration from the following research article - <em><a href=
 
 The <em>Multimodal Variational Autoencoder</em> builds upon the <em>VAE</em> to train a generative model that learns representations bridging between <em>latent variables</em> & <em>observations</em> along with training an <em><b>inference</b></em> network from observations to latents (which is the converse association).
 <br>
-In order to scale & consider all possible combinations of modalities, the <b>inference network</b> is extended to a <b><a href="https://en.wikipedia.org/wiki/Product_of_experts">product-of-expert variation</a></b> by assuming conditional independence amongst modalities.
+In order to scale & consider all possible combinations of modalities, the <b>inference network</b> is extended to a <b><a href="https://en.wikipedia.org/wiki/Product_of_experts">product-of-expert</a></b> variation by assuming conditional independence amongst modalities.
