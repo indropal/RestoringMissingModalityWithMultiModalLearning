@@ -44,6 +44,7 @@ The datasets used for this project are as follows:
 </ul>
 The Speech Data is decomposed and preprocessed by extracting <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum">Mel-frequency cepstral coefficients</a> and organizing them into Tensors for training the generative deep learning model.
 
-<h4>Methodology</h4> :
+<h4>Methodology :</h4>
 
 The project currently involves a trained MVAE on MNIST handritten digits data for two languages 'Bangla' (Bengali) & 'Arabic' while speech data for 'English' is used as the third modality. <br>
+The model is trained using evidence lower bound (ELBO) loss defined for the inference network comprising of the modality reconstruction losses - which is Mean Squared Error and Kullback-Leibler divergence for the latent distribution.
