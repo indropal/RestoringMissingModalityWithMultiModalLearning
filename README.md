@@ -25,7 +25,7 @@ in this project, the inference network of the <em>Multimodal Variational Autoenc
 
 <h4>Details about the Dataset</h4>
 
-<b>Technology Stack </b>: <em>Python, PyTorch, seaborn</em>
+<b>Technology Stack </b>: <em>Python, PyTorch</em>
 
 The datasets used for this project are as follows:
 <ul>
