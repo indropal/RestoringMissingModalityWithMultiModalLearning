@@ -14,7 +14,7 @@ The project takes inspiration from the following research article - <em><a href=
 <h4><em>NOTE: Extensions to this project is currently under development</em></h4>
 
 <hr style="border: 4px double grey"></hr>
-<h3>Details & Objectivesabout the project</h3>
+<h3>Objectives & Methodology of the project</h3>
 
 The <em>Multimodal Variational Autoencoder</em> builds upon the <em>VAE</em> to train a generative model that learns representations bridging between <em>latent variables</em> & <em>observations</em> along with training an <em><b>inference</b></em> network from observations to latents (which is the converse association).
 <br>
