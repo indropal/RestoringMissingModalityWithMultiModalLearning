@@ -13,6 +13,10 @@ The project takes inspiration from the following research article - <em><a href=
 
 <h4><em>NOTE: Extensions to this project is currently under development</em></h4>
 
+<img src="https://github.com/indropal/RestoringMissingModalityWithMultiModalLearning/tree/main/DocImages/MVAE_Reconstructed Digit 5.png"></img>
+<p><em>Sample reconstruction of Bengali Digit 5 for multi-modal speech (English) & image (MNIST Arabic) inputs</em></p>
+
+
 <hr style="border: 4px double grey"></hr>
 <h3>Objectives & Methodology of the project</h3>
 
@@ -37,3 +41,7 @@ The datasets used for this project are as follows:
     </li>
 </ul>
 The Speech Data is decomposed and preprocessed by extracting <a href="https://en.wikipedia.org/wiki/Mel-frequency_cepstrum">Mel-frequency cepstral coefficients</a> and organizing them into Tensors for training the generative deep learning model.
+
+<h4>Methodology</h4> :
+
+The project currently involves a trained MVAE on MNIST handritten digits data for two languages 'Bangla' (Bengali) & 'Arabic' while speech data for 'English' is used as the third modality. <br>
